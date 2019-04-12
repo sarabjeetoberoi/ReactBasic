@@ -1,0 +1,27 @@
+//options and addoption component in this
+.widget{
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+.widget__message{
+    border-bottom: 1px solid lighten($light-blue,10%);
+    color:$off-white;
+    margin:0;
+    padding:$l-size;
+    text-align: center;
+}
+//remove all include this 
+.widget-header{
+background: $blue;
+color:$off-white;
+//for left to right
+display:flex;
+//spacing
+justify-content: space-between;
+padding:$m-size;
+}
+
+//to select alement in a given class
+.widget-header__title{
+    margin:0;
+}

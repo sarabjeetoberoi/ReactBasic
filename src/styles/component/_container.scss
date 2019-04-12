@@ -1,0 +1,9 @@
+//center the contents on the screen
+.container {
+  //100% width lega to center kaise krenge
+  max-width: 60rem;
+  //auto 70 h to 10-10 dono taraf
+  margin: 0 auto;
+  //chotaa krenge to corner pr ajayga to isliye padding
+  padding: 0 $m-size;
+}
